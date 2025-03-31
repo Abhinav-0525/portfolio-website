@@ -3,11 +3,55 @@
 @tailwind utilities;
 
 @layer base {
+  :root {
+    --light: #ffffff;
+    --light-darker: #f3f4f6;
+    --dark: #1f2937;
+    --dark-lighter: #374151;
+  }
+
   * {
     @apply border-border;
   }
 
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+  }
+
   body {
-    @apply font-sans antialiased bg-background text-foreground;
+    @apply font-sans antialiased bg-background text-foreground transition-colors duration-300;
+  }
+
+  .bg-light {
+    background-color: var(--light);
+  }
+
+  .bg-light-darker {
+    background-color: var(--light-darker);
+  }
+
+  .bg-dark {
+    background-color: var(--dark);
+  }
+
+  .bg-dark-lighter {
+    background-color: var(--dark-lighter);
+  }
+
+  .text-light {
+    color: var(--light);
+  }
+
+  .text-light-darker {
+    color: var(--light-darker);
+  }
+
+  .text-dark {
+    color: var(--dark);
+  }
+
+  .text-dark-lighter {
+    color: var(--dark-lighter);
   }
 }

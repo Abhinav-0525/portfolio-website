@@ -30,9 +30,9 @@ const About = () => {
           <span className="text-sm font-semibold text-primary uppercase tracking-wider">About Me</span>
           <h2 className="mt-2 text-3xl leading-8 font-bold tracking-tight text-dark-lighter dark:text-light sm:text-4xl font-sans">The Person Behind The Code</h2>
         </div>
-        <div className="flex flex-col lg:flex-row items-center gap-12">
+        <div className="flex flex-col lg:flex-row items-center gap-8 md:gap-12">
           <motion.div 
-            className="lg:w-1/2"
+            className="w-full sm:w-3/4 md:w-2/3 lg:w-1/2 mb-8 lg:mb-0"
             variants={{
               hidden: { opacity: 0, x: -30 },
               visible: { 
@@ -52,7 +52,7 @@ const About = () => {
             </div>
           </motion.div>
           <motion.div 
-            className="lg:w-1/2"
+            className="w-full lg:w-1/2 px-4 sm:px-6"
             variants={{
               hidden: { opacity: 0, x: 30 },
               visible: { 
@@ -65,26 +65,26 @@ const About = () => {
               }
             }}
           >
-            <div className="prose prose-lg max-w-none dark:prose-invert">
-              <h3 className="text-2xl font-bold text-dark-lighter dark:text-light mb-4 font-sans">My Journey</h3>
-              <p className="mb-4">
+            <div className="prose prose-base sm:prose-lg max-w-none dark:prose-invert">
+              <h3 className="text-xl sm:text-2xl font-bold text-dark-lighter dark:text-light mb-3 sm:mb-4 font-sans">My Journey</h3>
+              <p className="mb-3 sm:mb-4 text-sm sm:text-base md:text-lg leading-relaxed">
                 With over 5 years of experience in full stack development, I've had the opportunity to work on a diverse range of projects from small business websites to enterprise-level applications.
               </p>
-              <p className="mb-4">
+              <p className="mb-3 sm:mb-4 text-sm sm:text-base md:text-lg leading-relaxed">
                 My journey began with a Computer Science degree, but my passion for creating elegant solutions to complex problems has driven me to continuously expand my skill set through self-learning and professional development.
               </p>
-              <p className="mb-4">
+              <p className="mb-3 sm:mb-4 text-sm sm:text-base md:text-lg leading-relaxed">
                 I specialize in JavaScript ecosystems (React, Node.js), but I'm also proficient with Python, Java, and various database technologies. I believe in writing clean, maintainable code and creating intuitive user experiences.
               </p>
-              <p className="mb-6">
+              <p className="mb-4 sm:mb-6 text-sm sm:text-base md:text-lg leading-relaxed">
                 When I'm not coding, you can find me hiking, reading science fiction, or experimenting with new recipes in the kitchen. I bring the same creativity and attention to detail to my personal interests as I do to my development work.
               </p>
-              <div className="flex flex-wrap gap-3">
-                <motion.span whileHover={{ scale: 1.05 }} className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">Problem Solver</motion.span>
-                <motion.span whileHover={{ scale: 1.05 }} className="px-3 py-1 bg-green-500/10 text-green-500 rounded-full text-sm font-medium">Team Player</motion.span>
-                <motion.span whileHover={{ scale: 1.05 }} className="px-3 py-1 bg-purple-500/10 text-purple-500 rounded-full text-sm font-medium">Fast Learner</motion.span>
-                <motion.span whileHover={{ scale: 1.05 }} className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">Detail Oriented</motion.span>
-                <motion.span whileHover={{ scale: 1.05 }} className="px-3 py-1 bg-green-500/10 text-green-500 rounded-full text-sm font-medium">Creative Thinker</motion.span>
+              <div className="flex flex-wrap gap-2 sm:gap-3">
+                <motion.span whileHover={{ scale: 1.05 }} className="px-2 sm:px-3 py-1 bg-primary/10 text-primary rounded-full text-xs sm:text-sm font-medium">Problem Solver</motion.span>
+                <motion.span whileHover={{ scale: 1.05 }} className="px-2 sm:px-3 py-1 bg-green-500/10 text-green-500 rounded-full text-xs sm:text-sm font-medium">Team Player</motion.span>
+                <motion.span whileHover={{ scale: 1.05 }} className="px-2 sm:px-3 py-1 bg-purple-500/10 text-purple-500 rounded-full text-xs sm:text-sm font-medium">Fast Learner</motion.span>
+                <motion.span whileHover={{ scale: 1.05 }} className="px-2 sm:px-3 py-1 bg-primary/10 text-primary rounded-full text-xs sm:text-sm font-medium">Detail Oriented</motion.span>
+                <motion.span whileHover={{ scale: 1.05 }} className="px-2 sm:px-3 py-1 bg-green-500/10 text-green-500 rounded-full text-xs sm:text-sm font-medium">Creative Thinker</motion.span>
               </div>
             </div>
           </motion.div>
