@@ -4,7 +4,7 @@ import { storage } from "./storage";
 import { contactSchema, type Contact } from "@shared/schema";
 import { ZodError } from "zod";
 import { fromZodError } from "zod-validation-error";
-import nodemailer from "nodemailer";
+// import nodemailer from "node-mailer";
 
 export async function registerRoutes(app: Express): Promise<Server> {
   // Contact form endpoint

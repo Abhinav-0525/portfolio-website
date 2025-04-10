@@ -18,94 +18,101 @@ interface Project {
 const projects: Project[] = [
   {
     id: 1,
-    title: "E-commerce Platform",
-    description: "A fully responsive e-commerce platform with product management, cart functionality, and payment integration.",
+    title: "Student Management System",
+    description: "A full stack student management system to digitize student records and streamline academic processes.",
     image: "bg-slate-200 dark:bg-slate-700", // Placeholder
-    category: "web",
+    category: "fullstack",
     technologies: [
       { name: "React", color: "bg-primary/80" },
-      { name: "Node.js", color: "bg-green-500/80" }
+      { name: "Node.js", color: "bg-yellow-500/80" },
+      { name: "MongoDB", color: "bg-green-500/80" },
+      // { name: "Express.js", color: "bg-red-500/80" },
+      { name: "Material UI", color: "bg-purple-500/80" },
+      // { name: "Ant Design", color: "bg-primary/80" }
     ],
     links: {
-      live: "https://example.com",
-      github: "https://github.com"
+      live: "https://my-class-hub.vercel.app/",
+      github: "https://github.com/Abhinav-0525/student-manager"
     }
   },
   {
     id: 2,
-    title: "Fitness Tracker App",
-    description: "A mobile application for tracking workouts, nutrition, and health metrics with personalized recommendations.",
+    title: "Binary Tree Visualisation Tool",
+    description: "An interactive binary tree visualization tool to help users in understanding tree traversals techniques and views.",
     image: "bg-slate-200 dark:bg-slate-700", // Placeholder
-    category: "mobile",
+    category: "frontend",
     technologies: [
-      { name: "React Native", color: "bg-primary/80" },
-      { name: "Firebase", color: "bg-purple-500/80" }
+      { name: "React", color: "bg-primary/80" },
+      { name: "D3.js", color: "bg-purple-500/80" }
     ],
     links: {
-      live: "https://example.com",
-      github: "https://github.com"
+      live: "https://binary-tree-explorer.vercel.app/",
+      github: "https://github.com/Abhinav-0525/tree-visualizer"
     }
   },
   {
     id: 3,
-    title: "Stock Trading API",
-    description: "A RESTful API for real-time stock trading with authentication, authorization, and data analysis features.",
+    title: "Bank Management System",
+    description: "A terminal-based bank transaction system using Java OOP principles to manage user accounts and handle transactions.",
     image: "bg-slate-200 dark:bg-slate-700", // Placeholder
-    category: "backend",
+    category: "cli",
     technologies: [
-      { name: "Node.js", color: "bg-purple-500/80" },
-      { name: "PostgreSQL", color: "bg-green-500/80" }
+      { name: "Java", color: "bg-purple-500/80" },
+      { name: "MySQL", color: "bg-primary/80" },
+      { name: "JDBC", color: "bg-green-500/80" }
     ],
     links: {
-      live: "https://example.com",
-      github: "https://github.com"
+      // live: "https://example.com",
+      github: "https://github.com/Abhinav-0525/Banking-Management-System"
     }
   },
   {
     id: 4,
-    title: "Design System",
-    description: "A comprehensive design system with reusable components, style guidelines, and documentation for consistent UIs.",
+    title: "Blog Application",
+    description: "A dynamic Blog Application that enables user to create, manage, and interact with blog posts seamlessly.",
     image: "bg-slate-200 dark:bg-slate-700", // Placeholder
-    category: "ui",
-    technologies: [
-      { name: "Figma", color: "bg-primary/80" },
-      { name: "UI Components", color: "bg-green-500/80" }
-    ],
-    links: {
-      live: "https://example.com",
-      github: "https://github.com"
-    }
-  },
-  {
-    id: 5,
-    title: "Task Management App",
-    description: "A collaborative task management application with real-time updates, calendar integration, and progress tracking.",
-    image: "bg-slate-200 dark:bg-slate-700", // Placeholder
-    category: "web",
+    category: "fullstack",
     technologies: [
       { name: "React", color: "bg-primary/80" },
-      { name: "Redux", color: "bg-purple-500/80" }
+      { name: "Node.js", color: "bg-green-500/80" },
+      { name: "MongoDB", color: "bg-purple-500/80" },
+      
     ],
     links: {
-      live: "https://example.com",
-      github: "https://github.com"
+      // live: "https://example.com",
+      github: "https://github.com/Abhinav-0525/blog-application"
     }
   },
-  {
-    id: 6,
-    title: "Travel Companion App",
-    description: "A mobile app for travelers with trip planning, itinerary management, and local recommendations.",
-    image: "bg-slate-200 dark:bg-slate-700", // Placeholder
-    category: "mobile",
-    technologies: [
-      { name: "Flutter", color: "bg-primary/80" },
-      { name: "Firebase", color: "bg-green-500/80" }
-    ],
-    links: {
-      live: "https://example.com",
-      github: "https://github.com"
-    }
-  }
+  // {
+  //   id: 5,
+  //   title: "Task Management App",
+  //   description: "A collaborative task management application with real-time updates, calendar integration, and progress tracking.",
+  //   image: "bg-slate-200 dark:bg-slate-700", // Placeholder
+  //   category: "web",
+  //   technologies: [
+  //     { name: "React", color: "bg-primary/80" },
+  //     { name: "Redux", color: "bg-purple-500/80" }
+  //   ],
+  //   links: {
+  //     live: "https://example.com",
+  //     github: "https://github.com"
+  //   }
+  // },
+  // {
+  //   id: 6,
+  //   title: "Travel Companion App",
+  //   description: "A mobile app for travelers with trip planning, itinerary management, and local recommendations.",
+  //   image: "bg-slate-200 dark:bg-slate-700", // Placeholder
+  //   category: "mobile",
+  //   technologies: [
+  //     { name: "Flutter", color: "bg-primary/80" },
+  //     { name: "Firebase", color: "bg-green-500/80" }
+  //   ],
+  //   links: {
+  //     live: "https://example.com",
+  //     github: "https://github.com"
+  //   }
+  // }
 ];
 
 const ProjectCard = ({ project }: { project: Project }) => {
@@ -119,7 +126,7 @@ const ProjectCard = ({ project }: { project: Project }) => {
     >
       <div className="relative overflow-hidden">
         <div className={`w-full h-60 ${project.image} flex items-center justify-center`}>
-          <span className="text-5xl">{project.category === 'web' ? '🌐' : project.category === 'mobile' ? '📱' : project.category === 'backend' ? '⚙️' : '🎨'}</span>
+          <span className="text-5xl">{project.category === 'fullstack' ? '🌐' : project.category === 'frontend' ? '💻' : project.category === 'cli' ? '⚙️' : '🎨'}</span>
         </div>
         <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
           <div className="p-4 w-full">
@@ -215,33 +222,33 @@ const Projects = () => {
             All
           </motion.button>
           <motion.button 
-            className={`project-filter px-4 py-2 rounded-full transition-all ${activeFilter === "web" ? "bg-primary text-white" : "bg-white dark:bg-dark-lighter text-dark-lighter dark:text-light-darker hover:bg-primary/10"}`}
-            onClick={() => setActiveFilter("web")}
+            className={`project-filter px-4 py-2 rounded-full transition-all ${activeFilter === "fullstack" ? "bg-primary text-white" : "bg-white dark:bg-dark-lighter text-dark-lighter dark:text-light-darker hover:bg-primary/10"}`}
+            onClick={() => setActiveFilter("fullstack")}
             whileTap={{ scale: 0.95 }}
           >
-            Web
+            Full Stack
           </motion.button>
           <motion.button 
-            className={`project-filter px-4 py-2 rounded-full transition-all ${activeFilter === "mobile" ? "bg-primary text-white" : "bg-white dark:bg-dark-lighter text-dark-lighter dark:text-light-darker hover:bg-primary/10"}`}
-            onClick={() => setActiveFilter("mobile")}
+            className={`project-filter px-4 py-2 rounded-full transition-all ${activeFilter === "frontend" ? "bg-primary text-white" : "bg-white dark:bg-dark-lighter text-dark-lighter dark:text-light-darker hover:bg-primary/10"}`}
+            onClick={() => setActiveFilter("frontend")}
             whileTap={{ scale: 0.95 }}
           >
-            Mobile
+            Frontend
           </motion.button>
           <motion.button 
-            className={`project-filter px-4 py-2 rounded-full transition-all ${activeFilter === "ui" ? "bg-primary text-white" : "bg-white dark:bg-dark-lighter text-dark-lighter dark:text-light-darker hover:bg-primary/10"}`}
-            onClick={() => setActiveFilter("ui")}
+            className={`project-filter px-4 py-2 rounded-full transition-all ${activeFilter === "cli" ? "bg-primary text-white" : "bg-white dark:bg-dark-lighter text-dark-lighter dark:text-light-darker hover:bg-primary/10"}`}
+            onClick={() => setActiveFilter("cli")}
             whileTap={{ scale: 0.95 }}
           >
-            UI/UX
+            CLI
           </motion.button>
-          <motion.button 
+          {/* <motion.button 
             className={`project-filter px-4 py-2 rounded-full transition-all ${activeFilter === "backend" ? "bg-primary text-white" : "bg-white dark:bg-dark-lighter text-dark-lighter dark:text-light-darker hover:bg-primary/10"}`}
             onClick={() => setActiveFilter("backend")}
             whileTap={{ scale: 0.95 }}
           >
             Backend
-          </motion.button>
+          </motion.button> */}
         </div>
 
         {/* Projects Grid */}

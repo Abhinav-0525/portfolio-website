@@ -15,58 +15,58 @@ interface VolunteerExperience {
 const volunteerExperiences: VolunteerExperience[] = [
   {
     id: 1,
-    title: "Code for Good Hackathon Mentor",
-    period: "2021 - Present",
-    description: "Mentored student teams during hackathons focused on developing solutions for non-profit organizations. Provided technical guidance, code reviews, and helped teams implement best practices.",
-    icon: "fas fa-laptop-code",
+    title: "ACM VNRVJIET Volunteer",
+    period: "2023 - Present",
+    description: "Served as an active member of the ACM student chapter, working collaboratively with a team of 30 members to organize and conduct technical workshops and events for a community of 500+ students.",
+    icon: "fas fa-people-carry",
     iconBg: "bg-primary/10",
     iconColor: "text-primary",
     tags: [
-      { name: "Web Development", color: "bg-primary/10 text-primary" },
-      { name: "Mentoring", color: "bg-green-500/10 text-green-500" }
+      { name: "Event Management", color: "bg-primary/10 text-primary" },
+      { name: "Hackathons", color: "bg-green-500/10 text-green-500" }
     ]
   },
   {
     id: 2,
-    title: "Coding Workshop Instructor",
-    period: "2020 - Present",
-    description: "Conducted monthly coding workshops for underrepresented youth at local community centers. Developed curriculum, taught web development basics, and mentored students on personal projects.",
+    title: "Tutor and Problem setter",
+    period: "2024 - Present",
+    description: "Collaborated with a team to organize coding contests, verified problem solutions by writing and testing code and mentored participants by explaining efficient techniques.",
     icon: "fas fa-chalkboard-teacher",
     iconBg: "bg-green-500/10",
     iconColor: "text-green-500",
     tags: [
-      { name: "Education", color: "bg-green-500/10 text-green-500" },
-      { name: "HTML/CSS", color: "bg-primary/10 text-primary" },
-      { name: "JavaScript", color: "bg-purple-500/10 text-purple-500" }
+      { name: "Coding", color: "bg-green-500/10 text-green-500" },
+      { name: "Mentoring", color: "bg-primary/10 text-primary" },
+      { name: "Problem-setting", color: "bg-purple-500/10 text-purple-500" }
     ]
   },
-  {
-    id: 3,
-    title: "Non-Profit Website Developer",
-    period: "2019 - 2021",
-    description: "Designed and developed websites for local non-profit organizations to improve their online presence. Provided ongoing maintenance and trained staff on content management systems.",
-    icon: "fas fa-globe",
-    iconBg: "bg-purple-500/10",
-    iconColor: "text-purple-500",
-    tags: [
-      { name: "WordPress", color: "bg-purple-500/10 text-purple-500" },
-      { name: "Web Design", color: "bg-primary/10 text-primary" },
-      { name: "SEO", color: "bg-green-500/10 text-green-500" }
-    ]
-  },
-  {
-    id: 4,
-    title: "Tech Community Organizer",
-    period: "2018 - Present",
-    description: "Co-organized local tech meetups and events to foster knowledge sharing and networking. Coordinated speakers, venues, and promoted diversity and inclusion in the tech community.",
-    icon: "fas fa-users",
-    iconBg: "bg-primary/10",
-    iconColor: "text-primary",
-    tags: [
-      { name: "Event Planning", color: "bg-primary/10 text-primary" },
-      { name: "Community Building", color: "bg-green-500/10 text-green-500" }
-    ]
-  }
+  // {
+  //   id: 3,
+  //   title: "Non-Profit Website Developer",
+  //   period: "2019 - 2021",
+  //   description: "Designed and developed websites for local non-profit organizations to improve their online presence. Provided ongoing maintenance and trained staff on content management systems.",
+  //   icon: "fas fa-globe",
+  //   iconBg: "bg-purple-500/10",
+  //   iconColor: "text-purple-500",
+  //   tags: [
+  //     { name: "WordPress", color: "bg-purple-500/10 text-purple-500" },
+  //     { name: "Web Design", color: "bg-primary/10 text-primary" },
+  //     { name: "SEO", color: "bg-green-500/10 text-green-500" }
+  //   ]
+  // },
+  // {
+  //   id: 4,
+  //   title: "Tech Community Organizer",
+  //   period: "2018 - Present",
+  //   description: "Co-organized local tech meetups and events to foster knowledge sharing and networking. Coordinated speakers, venues, and promoted diversity and inclusion in the tech community.",
+  //   icon: "fas fa-users",
+  //   iconBg: "bg-primary/10",
+  //   iconColor: "text-primary",
+  //   tags: [
+  //     { name: "Event Planning", color: "bg-primary/10 text-primary" },
+  //     { name: "Community Building", color: "bg-green-500/10 text-green-500" }
+  //   ]
+  // }
 ];
 
 const Volunteer = () => {

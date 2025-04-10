@@ -68,23 +68,23 @@ const About = () => {
             <div className="prose prose-base sm:prose-lg max-w-none dark:prose-invert">
               <h3 className="text-xl sm:text-2xl font-bold text-dark-lighter dark:text-light mb-3 sm:mb-4 font-sans">My Journey</h3>
               <p className="mb-3 sm:mb-4 text-sm sm:text-base md:text-lg leading-relaxed">
-                With over 5 years of experience in full stack development, I've had the opportunity to work on a diverse range of projects from small business websites to enterprise-level applications.
+                With a solid background in Information Technology, I’ve been actively building applications that bridge real-world needs. My journey started with Java and expanded into the MERN stack, allowing me to work on wide range of projects.
               </p>
               <p className="mb-3 sm:mb-4 text-sm sm:text-base md:text-lg leading-relaxed">
-                My journey began with a Computer Science degree, but my passion for creating elegant solutions to complex problems has driven me to continuously expand my skill set through self-learning and professional development.
+                I'm proficient in Java, JavaScript (React, Node.js), MongoDB, MySQL, and have solved over 250+ DSA problems using Java — a testament to my problem-solving mindset. I believe in writing clean, maintainable code and crafting intuitive user experiences.
               </p>
-              <p className="mb-3 sm:mb-4 text-sm sm:text-base md:text-lg leading-relaxed">
-                I specialize in JavaScript ecosystems (React, Node.js), but I'm also proficient with Python, Java, and various database technologies. I believe in writing clean, maintainable code and creating intuitive user experiences.
-              </p>
+              {/* <p className="mb-3 sm:mb-4 text-sm sm:text-base md:text-lg leading-relaxed">
+                Most of the projects I’ve built are solo efforts — from design to deployment — which has sharpened both my technical and self-learning abilities. I'm also experienced with tools like Postman for API testing and Git for version control.
+              </p> */}
               <p className="mb-4 sm:mb-6 text-sm sm:text-base md:text-lg leading-relaxed">
-                When I'm not coding, you can find me hiking, reading science fiction, or experimenting with new recipes in the kitchen. I bring the same creativity and attention to detail to my personal interests as I do to my development work.
+                When I’m not coding, you’ll find me diving into science fiction, exploring ancient world, or trying out something new in the kitchen. I bring the same curiosity and attention to detail to my hobbies as I do to every line of code I write.
               </p>
               <div className="flex flex-wrap gap-2 sm:gap-3">
                 <motion.span whileHover={{ scale: 1.05 }} className="px-2 sm:px-3 py-1 bg-primary/10 text-primary rounded-full text-xs sm:text-sm font-medium">Problem Solver</motion.span>
                 <motion.span whileHover={{ scale: 1.05 }} className="px-2 sm:px-3 py-1 bg-green-500/10 text-green-500 rounded-full text-xs sm:text-sm font-medium">Team Player</motion.span>
-                <motion.span whileHover={{ scale: 1.05 }} className="px-2 sm:px-3 py-1 bg-purple-500/10 text-purple-500 rounded-full text-xs sm:text-sm font-medium">Fast Learner</motion.span>
-                <motion.span whileHover={{ scale: 1.05 }} className="px-2 sm:px-3 py-1 bg-primary/10 text-primary rounded-full text-xs sm:text-sm font-medium">Detail Oriented</motion.span>
-                <motion.span whileHover={{ scale: 1.05 }} className="px-2 sm:px-3 py-1 bg-green-500/10 text-green-500 rounded-full text-xs sm:text-sm font-medium">Creative Thinker</motion.span>
+                <motion.span whileHover={{ scale: 1.05 }} className="px-2 sm:px-3 py-1 bg-purple-500/10 text-purple-500 rounded-full text-xs sm:text-sm font-medium">Curious</motion.span>
+                <motion.span whileHover={{ scale: 1.05 }} className="px-2 sm:px-3 py-1 bg-primary/10 text-primary rounded-full text-xs sm:text-sm font-medium">Tech Explorer</motion.span>
+                <motion.span whileHover={{ scale: 1.05 }} className="px-2 sm:px-3 py-1 bg-green-500/10 text-green-500 rounded-full text-xs sm:text-sm font-medium">Analytical Thinker</motion.span>
               </div>
             </div>
           </motion.div>

@@ -42,82 +42,84 @@ const SkillItem = ({ name, percentage, color, delay }: SkillItemProps) => {
 const skillCategories = [
   {
     title: "Frontend",
-    icon: "fas fa-code",
-    iconBg: "bg-primary/10",
-    iconColor: "text-primary",
+    icon: "fas fa-laptop-code",
+    iconBg: "bg-red-500/10",
+    iconColor: "text-red-500",
     skills: [
-      { name: "React", percentage: 95 },
+      { name: "React", percentage: 85 },
       { name: "JavaScript", percentage: 90 },
       { name: "HTML/CSS", percentage: 85 },
-      { name: "TypeScript", percentage: 80 }
+      { name: "Tailwind", percentage: 70 }
     ],
-    color: "var(--primary)"
+    color: "rgb(239, 68, 68)"
   },
   {
-    title: "Backend",
+    title: "Backend & Database",
     icon: "fas fa-server",
     iconBg: "bg-green-500/10",
     iconColor: "text-green-500",
     skills: [
       { name: "Node.js", percentage: 90 },
       { name: "Express.js", percentage: 85 },
-      { name: "Python", percentage: 80 },
-      { name: "RESTful APIs", percentage: 90 }
-    ],
-    color: "rgb(16, 185, 129)"
-  },
-  {
-    title: "Database",
-    icon: "fas fa-database",
-    iconBg: "bg-purple-500/10",
-    iconColor: "text-purple-500",
-    skills: [
       { name: "MongoDB", percentage: 90 },
-      { name: "MySQL", percentage: 85 },
-      { name: "PostgreSQL", percentage: 80 },
-      { name: "Redis", percentage: 75 }
-    ],
-    color: "rgb(139, 92, 246)"
-  },
-  {
-    title: "DevOps",
-    icon: "fas fa-tools",
-    iconBg: "bg-primary/10",
-    iconColor: "text-primary",
-    skills: [
-      { name: "Docker", percentage: 85 },
-      { name: "AWS", percentage: 80 },
-      { name: "CI/CD", percentage: 80 },
-      { name: "Git", percentage: 95 }
-    ],
-    color: "var(--primary)"
-  },
-  {
-    title: "Mobile",
-    icon: "fas fa-mobile-alt",
-    iconBg: "bg-green-500/10",
-    iconColor: "text-green-500",
-    skills: [
-      { name: "React Native", percentage: 85 },
-      { name: "Flutter", percentage: 70 },
-      { name: "iOS/Android", percentage: 65 },
-      { name: "PWA", percentage: 90 }
+      { name: "MySQL", percentage: 80 },
+      // { name: "Python", percentage: 80 },
+      // { name: "RESTful APIs", percentage: 90 }
     ],
     color: "rgb(16, 185, 129)"
   },
+  // {
+  //   title: "Database",
+  //   icon: "fas fa-database",
+  //   iconBg: "bg-purple-500/10",
+  //   iconColor: "text-purple-500",
+  //   skills: [
+  //     { name: "MongoDB", percentage: 90 },
+  //     { name: "MySQL", percentage: 80 },
+  //     // { name: "PostgreSQL", percentage: 80 },
+  //     // { name: "Redis", percentage: 75 }
+  //   ],
+  //   color: "rgb(139, 92, 246)"
+  // },
   {
-    title: "UI/UX",
-    icon: "fas fa-paint-brush",
-    iconBg: "bg-purple-500/10",
-    iconColor: "text-purple-500",
+    title: "Programming languages",
+    icon: "fas fa-terminal",
+    iconBg: "bg-yellow-500/10",
+    iconColor: "text-yellow-500",
     skills: [
-      { name: "Figma", percentage: 85 },
-      { name: "Responsive Design", percentage: 90 },
-      { name: "Adobe XD", percentage: 75 },
-      { name: "Sass/SCSS", percentage: 80 }
+      { name: "Java", percentage: 95 },
+      { name: "Python", percentage: 80 },
+      { name: "C++", percentage: 80 },
+      { name: "C", percentage: 90 }
     ],
-    color: "rgb(139, 92, 246)"
-  }
+    color: "rgb(234, 179, 8)"
+  },
+  // {
+  //   title: "Mobile",
+  //   icon: "fas fa-mobile-alt",
+  //   iconBg: "bg-green-500/10",
+  //   iconColor: "text-green-500",
+  //   skills: [
+  //     { name: "React Native", percentage: 85 },
+  //     { name: "Flutter", percentage: 70 },
+  //     { name: "iOS/Android", percentage: 65 },
+  //     { name: "PWA", percentage: 90 }
+  //   ],
+  //   color: "rgb(16, 185, 129)"
+  // },
+  // {
+  //   title: "UI/UX",
+  //   icon: "fas fa-paint-brush",
+  //   iconBg: "bg-purple-500/10",
+  //   iconColor: "text-purple-500",
+  //   skills: [
+  //     { name: "Figma", percentage: 85 },
+  //     { name: "Responsive Design", percentage: 90 },
+  //     { name: "Adobe XD", percentage: 75 },
+  //     { name: "Sass/SCSS", percentage: 80 }
+  //   ],
+  //   color: "rgb(139, 92, 246)"
+  // }
 ];
 
 const Skills = () => {

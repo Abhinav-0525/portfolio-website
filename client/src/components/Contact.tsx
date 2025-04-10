@@ -174,7 +174,7 @@ const Contact = () => {
                 <div>
                   <h3 className="text-2xl font-bold text-dark-lighter dark:text-light mb-4 font-sans">Contact Information</h3>
                   <p className="text-dark-lighter/70 dark:text-light-darker/80 mb-8">
-                    I'm currently available for freelance work, full-time positions, and consulting opportunities. Let's create something amazing together!
+                    I'm currently available for software developer intern opportunities. Let's create something amazing together!
                   </p>
                 </div>
                 
@@ -185,7 +185,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <p className="text-sm text-dark-lighter/50 dark:text-light-darker/50">Email</p>
-                      <a href="mailto:john.doe@example.com" className="text-dark-lighter dark:text-light-darker hover:text-primary dark:hover:text-primary transition-colors">john.doe@example.com</a>
+                      <a href="mailto:john.doe@example.com" className="text-dark-lighter dark:text-light-darker hover:text-primary dark:hover:text-primary transition-colors">abhinavsai.janipireddy@gmail.com</a>
                     </div>
                   </div>
                   <div className="flex items-center space-x-4">
@@ -194,7 +194,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <p className="text-sm text-dark-lighter/50 dark:text-light-darker/50">Location</p>
-                      <p className="text-dark-lighter dark:text-light-darker">San Francisco, CA</p>
+                      <p className="text-dark-lighter dark:text-light-darker">Hyderabad, India</p>
                     </div>
                   </div>
                   <div className="flex items-center space-x-4">
@@ -203,7 +203,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <p className="text-sm text-dark-lighter/50 dark:text-light-darker/50">Availability</p>
-                      <p className="text-dark-lighter dark:text-light-darker">Full-time / Freelance</p>
+                      <p className="text-dark-lighter dark:text-light-darker">Intern</p>
                     </div>
                   </div>
                 </div>
@@ -212,7 +212,7 @@ const Contact = () => {
                   <h4 className="text-lg font-semibold text-dark-lighter dark:text-light mb-4">Connect with me</h4>
                   <div className="flex space-x-4">
                     <motion.a 
-                      href="https://github.com" 
+                      href="https://github.com/Abhinav-0525" 
                       target="_blank" 
                       rel="noopener noreferrer" 
                       className="p-3 bg-primary/10 rounded-full text-primary hover:bg-primary hover:text-white transition-colors"
@@ -222,7 +222,7 @@ const Contact = () => {
                       <i className="fab fa-github"></i>
                     </motion.a>
                     <motion.a 
-                      href="https://linkedin.com" 
+                      href="https://www.linkedin.com/in/abhinavsai07/" 
                       target="_blank" 
                       rel="noopener noreferrer" 
                       className="p-3 bg-primary/10 rounded-full text-primary hover:bg-primary hover:text-white transition-colors"
@@ -232,7 +232,7 @@ const Contact = () => {
                       <i className="fab fa-linkedin"></i>
                     </motion.a>
                     <motion.a 
-                      href="https://twitter.com" 
+                      href="https://x.com/AbhinavSai25" 
                       target="_blank" 
                       rel="noopener noreferrer" 
                       className="p-3 bg-primary/10 rounded-full text-primary hover:bg-primary hover:text-white transition-colors"
@@ -241,7 +241,7 @@ const Contact = () => {
                     >
                       <i className="fab fa-twitter"></i>
                     </motion.a>
-                    <motion.a 
+                    {/* <motion.a 
                       href="https://stackoverflow.com" 
                       target="_blank" 
                       rel="noopener noreferrer" 
@@ -250,8 +250,8 @@ const Contact = () => {
                       whileTap={{ scale: 0.9 }}
                     >
                       <i className="fab fa-stack-overflow"></i>
-                    </motion.a>
-                    <motion.a 
+                    </motion.a> */}
+                    {/* <motion.a 
                       href="https://dev.to" 
                       target="_blank" 
                       rel="noopener noreferrer" 
@@ -260,7 +260,7 @@ const Contact = () => {
                       whileTap={{ scale: 0.9 }}
                     >
                       <i className="fab fa-dev"></i>
-                    </motion.a>
+                    </motion.a> */}
                   </div>
                 </div>
               </div>

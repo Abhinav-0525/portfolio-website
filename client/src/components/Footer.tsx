@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
             <a href="#hero" className="text-xl font-bold text-primary tracking-tight font-sans">
-              <span className="text-light">&lt;</span>JohnDoe<span className="text-light">/&gt;</span>
+              <span className="text-light">&lt;</span>Abhinav<span className="text-light">/&gt;</span>
             </a>
           </div>
           <div className="flex flex-wrap justify-center gap-6 mb-4 md:mb-0">
@@ -48,7 +48,7 @@ const Footer = () => {
             </motion.a>
           </div>
           <div>
-            <p className="text-light-darker/60 text-sm">© {new Date().getFullYear()} John Doe. All rights reserved.</p>
+            <p className="text-light-darker/60 text-sm">© {new Date().getFullYear()} Abhinav Sai. All rights reserved.</p>
           </div>
         </div>
       </div>

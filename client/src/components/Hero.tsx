@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import profilePic from "../../../profile_photo.jpg";
 
 const Hero = () => {
   return (
@@ -12,11 +13,11 @@ const Hero = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
           >
             <h1 className="text-4xl md:text-5xl xl:text-6xl font-bold font-sans text-dark-lighter dark:text-light mb-4">
-              Hi, I'm <span className="text-primary">John Doe</span>
+              Hi, I'm <span className="text-primary">Abhinav Sai Janipireddy</span>
             </h1>
-            <h2 className="text-2xl md:text-3xl font-semibold mb-6 text-dark-lighter/80 dark:text-light-darker/90">Full Stack Developer</h2>
+            <h2 className="text-2xl md:text-3xl font-semibold mb-6 text-dark-lighter/80 dark:text-light-darker/90">IT Undergrad</h2>
             <p className="text-lg mb-8 max-w-2xl text-dark-lighter/70 dark:text-light-darker/80">
-              I build creative digital experiences for the web. Passionate about clean code, user experience, and solving real-world problems through technology.
+              I am passionate about latest technologies, interested in solving real-world problems and leverging my skills to help others while advancing in my career.
             </p>
             <div className="flex flex-wrap gap-4">
               <motion.a 
@@ -38,7 +39,7 @@ const Hero = () => {
             </div>
             <div className="mt-8 flex space-x-5">
               <motion.a 
-                href="https://github.com" 
+                href="https://github.com/Abhinav-0525/" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="text-dark-lighter/70 dark:text-light-darker/80 hover:text-primary dark:hover:text-primary transition-colors" 
@@ -49,7 +50,7 @@ const Hero = () => {
                 <i className="fab fa-github text-2xl"></i>
               </motion.a>
               <motion.a 
-                href="https://linkedin.com" 
+                href="https://www.linkedin.com/in/abhinavsai07/" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="text-dark-lighter/70 dark:text-light-darker/80 hover:text-primary dark:hover:text-primary transition-colors" 
@@ -60,17 +61,17 @@ const Hero = () => {
                 <i className="fab fa-linkedin text-2xl"></i>
               </motion.a>
               <motion.a 
-                href="https://twitter.com" 
+                href="https://leetcode.com/u/abhinav_sai01/" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="text-dark-lighter/70 dark:text-light-darker/80 hover:text-primary dark:hover:text-primary transition-colors" 
-                aria-label="Twitter"
+                aria-label="LeetCode"
                 whileHover={{ y: -3 }}
                 whileTap={{ scale: 0.9 }}
               >
-                <i className="fab fa-twitter text-2xl"></i>
+                <i className="fas fa-code text-2xl"></i>
               </motion.a>
-              <motion.a 
+              {/* <motion.a 
                 href="https://stackoverflow.com" 
                 target="_blank" 
                 rel="noopener noreferrer" 
@@ -80,7 +81,7 @@ const Hero = () => {
                 whileTap={{ scale: 0.9 }}
               >
                 <i className="fab fa-stack-overflow text-2xl"></i>
-              </motion.a>
+              </motion.a> */}
             </div>
           </motion.div>
           <motion.div 
@@ -89,7 +90,7 @@ const Hero = () => {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.6 }}
           >
-            <div className="relative">
+            {/* <div className="relative">
               <motion.div 
                 className="w-64 h-64 sm:w-80 sm:h-80 rounded-full bg-gradient-to-r from-primary to-purple-500 p-1"
                 animate={{ rotate: 360 }}
@@ -114,7 +115,37 @@ const Hero = () => {
               >
                 <span className="text-3xl">👨‍💻</span>
               </motion.div>
+            </div> */}
+            <div className="relative">
+              <div className="w-64 h-64 sm:w-80 sm:h-80 rounded-full bg-gradient-to-r from-primary to-purple-500 p-1">
+                <div className="w-full h-full rounded-full overflow-hidden bg-light dark:bg-dark">
+                  <div className="w-full h-full bg-slate-200 dark:bg-slate-700 flex items-center justify-center">
+                    <img 
+                      src={profilePic} // Replace with your actual path
+                      alt="Your Photo"
+                      className="w-full h-full object-cover"
+                    />
+
+                  </div>
+                </div>
+              </div>
+
+              <motion.div 
+                className="absolute -bottom-2 -right-2 bg-white dark:bg-dark-lighter p-3 rounded-lg shadow-lg"
+                initial={{ scale: 0 }}
+                animate={{ scale: 1 }}
+                transition={{ 
+                  type: "spring", 
+                  stiffness: 260, 
+                  damping: 20, 
+                  delay: 0.6 
+                }}
+              >
+                <span className="text-3xl">👨‍💻</span> {/* Optional: can replace this emoji too */}
+              </motion.div>
             </div>
+
+            
           </motion.div>
         </div>
         <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 hidden md:block">
